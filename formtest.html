@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formok - úrlapok</h1>
+    <form name="elso" action="" method="get">
+    <fieldset>
+    <legend>Az első űrlapom :)</legend>
+        <div class="mezo">
+    <label for="id">Név:</label>
+    <input id="nev" type="nev" name="name" value="" required/>
+    </div>
+    <div class="mezo">
+    <label for="pass">jelszó:</label>
+    <input id="pass" type="password" name="pass" value="" required/>
+    </div>
+    <P>
+    <label for="ferfi">Férfi</label>
+    <input id="ferfi"type="checkbox"name="Férfi" value="ON">
+    </P>
+    <P>
+    <label for="no">Nő</label>
+    <input id="no" type="checkbox"name="Nő" value="ON">
+    </P>
+    <div>
+    <input type="radio" name="rig" id="v1" value="ferfi">
+    <label for="v1">Férfi</label>
+    <input type="radio" name="rig" id="v2" value="nő">
+    <label for="v2">Nő</label>
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+    </div>
+    <div>
+        <label for="file">File</label>
+        <input type="file" name="file" id="file">
+    </div>
+    <div>
+        <input type="color" name="color" id="color">
+    </div>
+    <div>
+        <input type="date">
+    </div>
+    <input type="submit" value="Adatok küldése"/>
+    <input type="reset" value="Bevitt adatok törlése"/>
+    </fieldset>
+    </form>
+</body>
+</html>
