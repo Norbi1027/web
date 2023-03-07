@@ -1,13 +1,23 @@
-.sarga{
-    color: orange;
+*{
+    font-size: 0;
 }
-#harmadik{
-    color: red;
-}
-#masodik{
-    color: blue;
+
+p{
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    font-size: 20px;
 }
 a{
-    text-decoration: none;
-    
+    background-color: blueviolet;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline block;
+    font-size: inherit;
+
+} 
+div{
+    font-size: 15px;
 }
