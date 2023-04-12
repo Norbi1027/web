@@ -6,7 +6,7 @@ for (var i = 0; i <sor; i++)
     tablazat += '<tr>'
     for (var j = 0; j <oszlop; j++)
     {
-        tablazat += '<td>.</td>'; 
+        tablazat += `<td class = 'cella'>${i}:${j}</td>`; 
     }
     tablazat += '</tr>';
 }
