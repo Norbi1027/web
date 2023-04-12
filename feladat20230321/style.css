@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;;
+    margin-bottom: 30px;
+    align-content: space-between;
+}
+.flex-container > a{
+    text-align: left;
+}
